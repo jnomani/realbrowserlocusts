@@ -2,7 +2,7 @@
 """ Combine Locust with Selenium Web Driver """
 import logging
 from os import getenv as os_getenv
-from locust import User,  Environment
+from locust import User
 from locust.exception import LocustError
 from selenium import webdriver
 from realbrowserlocusts.core import RealBrowserClient
